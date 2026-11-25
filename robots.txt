@@ -26,4 +26,4 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://apphub.comee.online/sitemap.xml

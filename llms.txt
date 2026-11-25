@@ -3,22 +3,22 @@
 
 ## Directory Overview
 AppDirectory provides transparent access to telemetry-free desktop and mobile applications.
-- [Home Page](https://example.com/index.html): Full searchable directory of curated tools.
-- [About AppDirectory](https://example.com/about.html): Curation standards and editorial guidelines.
-- [Contact & Submissions](https://example.com/contact.html): Suggest software or contact contributors.
-- [Privacy Policy](https://example.com/privacy.html): Our zero-tracking privacy policy.
-- [Terms of Service](https://example.com/terms.html): Open-source directory terms of use.
+- [Home Page](https://apphub.comee.online/index.html): Full searchable directory of curated tools.
+- [About AppDirectory](https://apphub.comee.online/about.html): Curation standards and editorial guidelines.
+- [Contact & Submissions](https://apphub.comee.online/contact.html): Suggest software or contact contributors.
+- [Privacy Policy](https://apphub.comee.online/privacy.html): Our zero-tracking privacy policy.
+- [Terms of Service](https://apphub.comee.online/terms.html): Open-source directory terms of use.
 
 ## Curated Applications
-- [VSCodium](https://example.com/apps/vscodium.html): Telemetry-free open-source binary distributions of VS Code. (Development • MIT)
-- [Obsidian Notes](https://example.com/apps/obsidian.html): Extensible Markdown knowledge base and personal wiki. (Productivity • Freeware)
-- [Bitwarden](https://example.com/apps/bitwarden.html): Open-source password manager with zero-knowledge encryption. (Security • GPLv3)
-- [VLC Media Player](https://example.com/apps/vlc.html): Universal multimedia player supporting virtually all formats. (Media • GNU LGPL)
-- [Signal Messenger](https://example.com/apps/signal.html): Private, state-of-the-art end-to-end encrypted messaging. (Security • GPLv3)
-- [7-Zip Utility](https://example.com/apps/7zip.html): High compression ratio file archiver with AES-256 encryption. (Utilities • GNU LGPL)
-- [Kdenlive Video Editor](https://example.com/apps/kdenlive.html): Multi-track non-linear video editing suite with hardware acceleration. (Media • GPLv3)
-- [Syncthing](https://example.com/apps/syncthing.html): Continuous decentralized peer-to-peer file synchronization. (Utilities • MPL-2.0)
-- [Hoppscotch](https://example.com/apps/hoppscotch.html): Lightweight, privacy-focused open source API development ecosystem. (Development • MIT)
+- [VSCodium](https://apphub.comee.online/apps/vscodium.html): Telemetry-free open-source binary distributions of VS Code. (Development • MIT)
+- [Obsidian Notes](https://apphub.comee.online/apps/obsidian.html): Extensible Markdown knowledge base and personal wiki. (Productivity • Freeware)
+- [Bitwarden](https://apphub.comee.online/apps/bitwarden.html): Open-source password manager with zero-knowledge encryption. (Security • GPLv3)
+- [VLC Media Player](https://apphub.comee.online/apps/vlc.html): Universal multimedia player supporting virtually all formats. (Media • GNU LGPL)
+- [Signal Messenger](https://apphub.comee.online/apps/signal.html): Private, state-of-the-art end-to-end encrypted messaging. (Security • GPLv3)
+- [7-Zip Utility](https://apphub.comee.online/apps/7zip.html): High compression ratio file archiver with AES-256 encryption. (Utilities • GNU LGPL)
+- [Kdenlive Video Editor](https://apphub.comee.online/apps/kdenlive.html): Multi-track non-linear video editing suite with hardware acceleration. (Media • GPLv3)
+- [Syncthing](https://apphub.comee.online/apps/syncthing.html): Continuous decentralized peer-to-peer file synchronization. (Utilities • MPL-2.0)
+- [Hoppscotch](https://apphub.comee.online/apps/hoppscotch.html): Lightweight, privacy-focused open source API development ecosystem. (Development • MIT)
 
 ## Optional Context & Full Documentation
-- [XML Sitemap](https://example.com/sitemap.xml): Machine-readable index of all pages.
+- [XML Sitemap](https://apphub.comee.online/sitemap.xml): Machine-readable index of all pages.
