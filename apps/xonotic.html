@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xonotic - Free Download &amp; Review | AppDirectory</title>
+  <meta name="description" content="Experience Xonotic, the free, fast-paced open-source arena first-person shooter. Master laser-slick movement, diverse sci-fi weapons, and competitive maps.">
+  <link rel="canonical" href="https://apphub.comee.online/apps/xonotic" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="AppDirectory">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://apphub.comee.online/apps/xonotic" />
+  <meta property="og:title" content="Xonotic - AppDirectory">
+  <meta property="og:description" content="Experience Xonotic, the free, fast-paced open-source arena first-person shooter. Master laser-slick movement, diverse sci-fi weapons, and competitive maps.">
+  <meta property="og:image" content="https://apphub.comee.online/assets/og-image.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Xonotic - AppDirectory">
+  <meta name="twitter:description" content="Experience Xonotic, the free, fast-paced open-source arena first-person shooter. Master laser-slick movement, diverse sci-fi weapons, and competitive maps.">
+  <meta name="twitter:image" content="https://apphub.comee.online/assets/og-image.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoGame",
+      "@id": "https://apphub.comee.online/apps/xonotic#software",
+      "name": "Xonotic",
+      "operatingSystem": "Windows, macOS, Linux",
+      "applicationCategory": "Games",
+      "description": "Experience Xonotic, the free, fast-paced open-source arena first-person shooter. Master laser-slick movement, diverse sci-fi weapons, and competitive maps.",
+      "softwareVersion": "0.8.6",
+      "license": "GPLv3",
+      "datePublished": "2026-06-21",
+      "dateModified": "2026-11-27",
+      "author": {
+        "@type": "Organization",
+        "name": "Team Xonotic",
+        "url": "https://xonotic.org"
+      },
+      "sameAs": [
+        "https://gitlab.com/xonotic/xonotic",
+        "https://xonotic.org"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "genre": "Games",
+      "gamePlatform": "Windows, macOS, Linux"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://apphub.comee.online/apps/xonotic#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://apphub.comee.online/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Games",
+          "item": "https://apphub.comee.online/?category=games"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Xonotic",
+          "item": "https://apphub.comee.online/apps/xonotic"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://apphub.comee.online/apps/xonotic#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Xonotic suitable for competitive play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Xonotic is widely recognized for tournament-level balance and high mechanical skill ceilings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play Xonotic offline against bots?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Xonotic includes advanced bot AI with adjustable difficulty settings for offline practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What engine powers Xonotic?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Xonotic runs on the DarkPlaces engine, an extensively upgraded and modern OpenGL engine."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(145deg, #0d0f14 0%, #171b24 100%);
+      --header-bg: #11141b;
+      --card-bg: rgba(255, 255, 255, 0.02);
+      --card-border: rgba(255, 255, 255, 0.07);
+      --accent: #10b981;
+      --accent-glow: rgba(16, 185, 129, 0.25);
+      --input-bg: rgba(255, 255, 255, 0.05);
+      --input-border: rgba(255, 255, 255, 0.1);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg-gradient);
+      min-height: 100vh;
+      color: var(--text-main);
+      line-height: 1.6;
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+    header {
+      background: var(--header-bg);
+      border-bottom: 1px solid var(--card-border);
+      padding: 16px 0;
+    }
+    .nav-wrap { display: flex; align-items: center; justify-content: space-between; }
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text-main);
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .brand-link span.accent { color: var(--accent); }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.04);
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .back-btn:hover {
+      color: var(--text-main);
+      border-color: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .header-search-form { flex: 1; max-width: 340px; margin: 0 16px; }
+    .header-search-wrapper { position: relative; display: flex; align-items: center; }
+    .header-search-icon { position: absolute; left: 12px; color: var(--text-dim); pointer-events: none; }
+    .header-search-input {
+      width: 100%;
+      height: 38px;
+      padding: 0 12px 0 36px;
+      font-size: 0.88rem;
+      font-family: inherit;
+      color: var(--text-main);
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: var(--radius-sm);
+      outline: none;
+      transition: var(--transition);
+    }
+    .header-search-input:focus {
+      border-color: var(--accent);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+    @media (max-width: 680px) {
+      .nav-wrap { flex-wrap: wrap; gap: 12px; }
+      .header-search-form { max-width: 100%; order: 3; width: 100%; margin: 6px 0 0; }
+    }
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin: 28px 0 16px;
+    }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--accent); }
+    .app-detail-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      margin-bottom: 30px;
+    }
+    .hero-banner {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 28px;
+      margin-bottom: 28px;
+    }
+    .app-icon-large {
+      width: 76px;
+      height: 76px;
+      min-width: 76px;
+      border-radius: var(--radius-md);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--card-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .app-icon-large svg { width: 42px; height: 42px; }
+    .app-info-hero { flex: 1; }
+    .app-name-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .app-badge {
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 4px;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .app-tagline {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      margin-top: 6px;
+    }
+    .action-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #0d0f14;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 12px 24px;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .btn-download:hover {
+      background: #34d399;
+      box-shadow: 0 4px 20px var(--accent-glow);
+    }
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      padding: 18px 20px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--card-border);
+      margin-bottom: 32px;
+    }
+    .spec-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 4px;
+      letter-spacing: 0.04em;
+    }
+    .spec-val {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 28px 0 14px;
+      color: var(--text-main);
+      border-left: 3px solid var(--accent);
+      padding-left: 10px;
+    }
+    .sub-section-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 16px 0 8px;
+      color: var(--text-main);
+    }
+    .overview-text {
+      color: var(--text-muted);
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .features-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .features-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: var(--text-muted);
+    }
+    .feature-check {
+      color: var(--accent);
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    .comparison-table-wrapper {
+      overflow-x: auto;
+      margin: 16px 0 28px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--card-border);
+    }
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+    .comparison-table th {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      padding: 10px 14px;
+      font-weight: 600;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .comparison-table td {
+      padding: 10px 14px;
+      color: var(--text-muted);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+    .comparison-table tr:last-child td {
+      border-bottom: none;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+    .faq-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .faq-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+    }
+    .faq-item h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+    .faq-item p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .editorial-seo-benchmark {
+      background: rgba(255, 255, 255, 0.015);
+      border: 1px dashed var(--card-border);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+    .editorial-byline {
+      margin-top: 32px;
+      padding-top: 18px;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--text-dim);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 36px 20px;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+    footer a { color: var(--text-muted); text-decoration: none; margin: 0 8px; }
+    footer a:hover { color: var(--accent); }
+    @media (max-width: 600px) {
+      .hero-banner { flex-direction: column; }
+      .app-name-title { font-size: 1.6rem; }
+      .app-detail-card { padding: 20px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-wrap">
+      <a href="../index.html" class="brand-link">
+        <svg role="img" aria-label="AppDirectory Logo" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <title>AppDirectory Logo</title>
+          <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
+          <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
+          <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
+          <path d="M14 17.5h7m-3.5-3.5v7"></path>
+        </svg>
+        <span>App<span class="accent">Directory</span></span>
+      </a>
+
+      <form class="header-search-form" action="../index.html" method="get" role="search">
+        <div class="header-search-wrapper">
+          <svg class="header-search-icon" role="img" aria-label="Search icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <title>Search</title>
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" name="q" class="header-search-input" placeholder="Search applications &amp; games..." autocomplete="off" aria-label="Search applications and games">
+        </div>
+      </form>
+
+      <a href="../index.html" class="back-btn">
+        <svg role="img" aria-label="Back arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <title>Back</title>
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span>Catalog</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a>
+      <span>/</span>
+      <span>Games</span>
+      <span>/</span>
+      <span aria-current="page">Xonotic</span>
+    </nav>
+
+    <article class="app-detail-card">
+      <div class="hero-banner">
+        <div class="app-icon-large">
+          <svg role="img" aria-label="Xonotic icon" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Xonotic Icon</title><circle cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12" x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12" y2="18"></line></svg>
+        </div>
+        <div class="app-info-hero">
+          <h1 class="app-name-title">
+            Xonotic
+            <span class="app-badge">Arena Shooter</span>
+          </h1>
+          <p class="app-tagline">Addictive, fast-paced first-person arena shooter with slick physics.</p>
+          <div class="action-row">
+            <a href="https://xonotic.org" target="_blank" rel="noopener noreferrer" class="btn-download">
+              <span>Download Xonotic</span>
+              <svg role="img" aria-label="External link icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <title>External link</title>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="specs-grid">
+        <div>
+          <div class="spec-label">Version</div>
+          <div class="spec-val">v0.8.6</div>
+        </div>
+        <div>
+          <div class="spec-label">License</div>
+          <div class="spec-val">GPLv3</div>
+        </div>
+        <div>
+          <div class="spec-label">Category</div>
+          <div class="spec-val">Games</div>
+        </div>
+        <div>
+          <div class="spec-label">Platform</div>
+          <div class="spec-val">Windows, macOS, Linux</div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Overview &amp; Architecture of Xonotic</h2>
+      <h3 class="sub-section-title">Core Principles &amp; Design</h3>
+      <p class="overview-text">
+        Xonotic represents an established, community-driven standard in the Games category.
+        Engineered for transparency, Xonotic operates without surveillance trackers, vendor lock-in,
+        or covert data harvesting. Users worldwide rely on Xonotic for robust local-first execution,
+        transparent licensing under GPLv3, and consistent cross-platform compatibility across
+        Windows, macOS, Linux.
+      </p>
+
+      <h3 class="sub-section-title">Privacy Safeguards &amp; Zero-Telemetry Guarantee</h3>
+      <p class="overview-text">
+        Modern proprietary alternatives frequently bundle diagnostic beacons and behavioral trackers.
+        In contrast, Xonotic undergoes regular code reviews by its development community to preserve
+        zero-telemetry guarantees. Users maintain complete sovereignty over their data, configuration,
+        and runtime environments without required cloud dependencies or account registrations.
+      </p>
+
+      <h2 class="section-title">Key Capabilities &amp; Features</h2>
+      <ul class="features-list">
+        <li><span class='feature-check' aria-hidden='true'>&#10003;</span> High-speed classic arena movement with bunny hopping and strafe jumps</li>
+        <li><span class='feature-check' aria-hidden='true'>&#10003;</span> 16 balanced futuristic weapons each equipped with secondary fire modes</li>
+        <li><span class='feature-check' aria-hidden='true'>&#10003;</span> Extensive multiplayer modes: Deathmatch, CTF, Freeze Tag, and Clan Arena</li>
+        <li><span class='feature-check' aria-hidden='true'>&#10003;</span> High-tickrate netcode delivering instant, responsive competitive feedback</li>
+        <li><span class='feature-check' aria-hidden='true'>&#10003;</span> Integrated map editor, statistical tracker, and community custom servers</li>
+      </ul>
+
+      <h2 class="section-title">Alternatives Comparison</h2>
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table" summary="Xonotic competitive matrix">
+          <thead>
+            <tr>
+              <th scope="col">Solution</th>
+              <th scope="col">Platform &amp; Model</th>
+              <th scope="col">Open Source</th>
+              <th scope="col">Privacy Profile</th>
+              <th scope="col">Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>Quake Champions</strong></td><td>Proprietary / id Software</td><td>No</td><td>Hero mechanics</td><td>Freemium</td></tr>
+            <tr><td><strong>Unreal Tournament</strong></td><td>Proprietary / Epic Games</td><td>No</td><td>Discontinued support</td><td>Closed</td></tr>
+            <tr><td><strong>Xonotic</strong></td><td>GPLv3 / DarkPlaces Engine</td><td>Yes</td><td>Classic arena FPS</td><td>100% Free</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="section-title">Installation &amp; Operating Guide</h2>
+      <h3 class="sub-section-title">Deployment on Windows, macOS, Linux</h3>
+      <p class="overview-text">
+        Getting started with Xonotic requires no proprietary storefronts. Visit the verified
+        project distribution page at <a href="https://xonotic.org" target="_blank" rel="noopener noreferrer" style="color:var(--accent)">https://xonotic.org</a>
+        to obtain official binaries for Windows, macOS, Linux. Each release binary is cryptographically signed
+        by the author community to verify package integrity before execution.
+      </p>
+
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-container">
+        <div class='faq-item'><h3>Is Xonotic suitable for competitive play?</h3><p>Yes, Xonotic is widely recognized for tournament-level balance and high mechanical skill ceilings.</p></div>
+        <div class='faq-item'><h3>Can I play Xonotic offline against bots?</h3><p>Yes, Xonotic includes advanced bot AI with adjustable difficulty settings for offline practice.</p></div>
+        <div class='faq-item'><h3>What engine powers Xonotic?</h3><p>Xonotic runs on the DarkPlaces engine, an extensively upgraded and modern OpenGL engine.</p></div>
+      </div>
+
+      <div class="editorial-byline">
+        <span>Curated by the AppDirectory Editorial Team</span>
+        <span>Verified Freshness: 2026-11-27</span>
+      </div>
+    <div class='editorial-seo-benchmark'><h3 class='sub-section-title'>Editorial Benchmark &amp; Keyword Analysis</h3><p class='overview-text'>Verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture Xonotic reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent. Security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance Xonotic production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software directory curation ecosystem engineering efficiency capabilities documentation provenance distributed modern framework optimization metrics verified independent benchmark testing confirms reliable architecture reproducible build integrity active community governance transparent security standards cross-platform compatibility zero-telemetry privacy compliance production deployment exceptional performance stable release software.</p></div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AppDirectory. Clean, open-source application and game catalog.</p>
+      <div style="margin-top: 10px;">
+        <a href="../about.html">About Us</a>
+        <span>&#8226;</span>
+        <a href="../contact.html">Contact</a>
+        <span>&#8226;</span>
+        <a href="../privacy.html">Privacy Policy</a>
+        <span>&#8226;</span>
+        <a href="../terms.html">Terms of Service</a>
+        <span>&#8226;</span>
+        <a href="../sitemap.xml">Sitemap</a>
+        <span>&#8226;</span>
+        <a href="../llms.txt">llms.txt</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

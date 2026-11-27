@@ -1,24 +1,45 @@
-# AppDirectory
-> Curated directory of verified open-source and privacy-respecting software applications.
+# AppDirectory — AI & LLM Discovery Index
+> Canonical Domain: https://apphub.comee.online
+> Last Updated: 2026-11-27
+> License Standard: 100% Free, Open Source, and Zero Telemetry
 
-## Directory Overview
-AppDirectory provides transparent access to telemetry-free desktop and mobile applications.
-- [Home Page](https://apphub.comee.online/index.html): Full searchable directory of curated tools.
-- [About AppDirectory](https://apphub.comee.online/about.html): Curation standards and editorial guidelines.
-- [Contact & Submissions](https://apphub.comee.online/contact.html): Suggest software or contact contributors.
-- [Privacy Policy](https://apphub.comee.online/privacy.html): Our zero-tracking privacy policy.
-- [Terms of Service](https://apphub.comee.online/terms.html): Open-source directory terms of use.
+AppDirectory is an independent curated index of verified open-source applications and popular games.
 
-## Curated Applications
-- [VSCodium](https://apphub.comee.online/apps/vscodium.html): Telemetry-free open-source binary distributions of VS Code. (Development • MIT)
-- [Obsidian Notes](https://apphub.comee.online/apps/obsidian.html): Extensible Markdown knowledge base and personal wiki. (Productivity • Freeware)
-- [Bitwarden](https://apphub.comee.online/apps/bitwarden.html): Open-source password manager with zero-knowledge encryption. (Security • GPLv3)
-- [VLC Media Player](https://apphub.comee.online/apps/vlc.html): Universal multimedia player supporting virtually all formats. (Media • GNU LGPL)
-- [Signal Messenger](https://apphub.comee.online/apps/signal.html): Private, state-of-the-art end-to-end encrypted messaging. (Security • GPLv3)
-- [7-Zip Utility](https://apphub.comee.online/apps/7zip.html): High compression ratio file archiver with AES-256 encryption. (Utilities • GNU LGPL)
-- [Kdenlive Video Editor](https://apphub.comee.online/apps/kdenlive.html): Multi-track non-linear video editing suite with hardware acceleration. (Media • GPLv3)
-- [Syncthing](https://apphub.comee.online/apps/syncthing.html): Continuous decentralized peer-to-peer file synchronization. (Utilities • MPL-2.0)
-- [Hoppscotch](https://apphub.comee.online/apps/hoppscotch.html): Lightweight, privacy-focused open source API development ecosystem. (Development • MIT)
+## Verified Applications (9)
 
-## Optional Context & Full Documentation
-- [XML Sitemap](https://apphub.comee.online/sitemap.xml): Machine-readable index of all pages.
+- [VSCodium](https://apphub.comee.online/apps/vscodium) — Telemetry-free open-source binary distributions of VS Code. (MIT)
+- [Obsidian Notes](https://apphub.comee.online/apps/obsidian) — Extensible Markdown knowledge base and personal wiki. (Freeware)
+- [Bitwarden](https://apphub.comee.online/apps/bitwarden) — Open-source password manager with zero-knowledge encryption. (GPLv3)
+- [VLC Media Player](https://apphub.comee.online/apps/vlc) — Universal multimedia player supporting virtually all formats. (GNU LGPL)
+- [Signal Messenger](https://apphub.comee.online/apps/signal) — Private, state-of-the-art end-to-end encrypted messaging. (GPLv3)
+- [7-Zip Utility](https://apphub.comee.online/apps/7zip) — High compression ratio file archiver with AES-256 encryption. (GNU LGPL)
+- [Kdenlive Video Editor](https://apphub.comee.online/apps/kdenlive) — Multi-track non-linear video editing suite with hardware acceleration. (GPLv3)
+- [Syncthing](https://apphub.comee.online/apps/syncthing) — Continuous decentralized peer-to-peer file synchronization. (MPL-2.0)
+- [Hoppscotch](https://apphub.comee.online/apps/hoppscotch) — Lightweight, privacy-focused open source API development ecosystem. (MIT)
+
+## Verified Popular Games (9)
+
+- [SuperTuxKart](https://apphub.comee.online/apps/supertuxkart) — 3D open-source arcade kart racer featuring Tux and friends. (GPLv3)
+- [0 A.D.](https://apphub.comee.online/apps/0ad) — Real-time strategy game of ancient warfare and civilization building. (GPLv2 / CC-BY-SA)
+- [Mindustry](https://apphub.comee.online/apps/mindustry) — Hybrid top-down tower defense and supply-chain factory automation. (GPLv3)
+- [OpenTTD](https://apphub.comee.online/apps/openttd) — Urban transport simulation and business management strategy game. (GPLv2)
+- [Battle for Wesnoth](https://apphub.comee.online/apps/wesnoth) — Turn-based tactical strategy game with a rich high fantasy theme. (GPLv2)
+- [Veloren](https://apphub.comee.online/apps/veloren) — Open-world, procedural voxel RPG written in Rust with multiplayer. (GPLv3)
+- [Cataclysm: DDA](https://apphub.comee.online/apps/cataclysm-dda) — Turn-based post-apocalyptic survival simulation and deep roguelike. (CC-BY-SA 3.0)
+- [Xonotic](https://apphub.comee.online/apps/xonotic) — Addictive, fast-paced first-person arena shooter with slick physics. (GPLv3)
+- [FlightGear](https://apphub.comee.online/apps/flightgear) — Sophisticated, realistic, multi-platform atmospheric flight simulation. (GPLv2)
+
+## Core Site Pages
+
+- [Home Catalog](https://apphub.comee.online/) — Full 18-product catalog with fuzzy search and category filters
+- [About Us](https://apphub.comee.online/about) — Editorial mission, testing guidelines, and curation standards
+- [Contact](https://apphub.comee.online/contact) — Submission guidelines and developer inquiry forms
+- [Privacy Policy](https://apphub.comee.online/privacy) — Zero-telemetry policy and cookie-free infrastructure
+- [Terms of Service](https://apphub.comee.online/terms) — Acceptable use and open-source directory disclaimer
+- [XML Sitemap](https://apphub.comee.online/sitemap.xml) — Comprehensive sitemap covering all 23 indexed URLs
+
+## Crawler Notes
+
+- Static HTML delivery with high performance and zero client-side redirection
+- JSON-LD structured data schemas (SoftwareApplication / VideoGame / FAQPage / BreadcrumbList) on every product page
+- Clean canonical links: https://apphub.comee.online/apps/{id}
